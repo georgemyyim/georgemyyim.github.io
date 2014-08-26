@@ -31,7 +31,7 @@ body {
 
 /* Cover - Background */
 .jumbotron {
-  background-color: black;  background-image: url('../img/cover-bg.jpg');
+  background-color: black;  background-image: url('../img/cover-1680.jpg');
   background-position: center;  background-repeat: no-repeat;
   height: 100%;
 }
@@ -68,6 +68,4 @@ body {
     text-align: center;
     height: 300px !important;
 
-.bs-example{
-  margin: 20px;
 }
