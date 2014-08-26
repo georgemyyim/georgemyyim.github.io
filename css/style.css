@@ -1,0 +1,53 @@
+body {
+  overflow: hidden;
+  position: relative;
+}
+/* Side menu - side bar */
+.menu {
+  background: #202024 url('../img/menu-pattern.png') repeat left top;
+  left: -200;  /* start off behind the scenes */
+  height: 100%;  width: 200;
+  position: fixed;
+}
+/* Side menu - Top */
+.menu ul {
+  border-top: 1px solid #636366;  list-style: none;
+  margin: 10px;  padding: 3px;
+}
+/* Side menu - list */
+.menu li {
+  border-bottom: 1px solid #636366;  line-height: 50px;
+  padding-bottom: 3px;  padding-left: 10px;  padding-top: 3px;
+}
+/* Side menu - text */
+.menu a {
+  color: #fff;  font-size: 11px;
+  text-decoration: none;  text-transform: uppercase;
+}
+/* Side menu - close button */
+.icon-close {
+  cursor: pointer;  padding-left: 10px;  padding-top: 40px;
+}
+
+/* Cover - Background */
+.jumbotron {
+  background-color: black;  background-image: url('../img/cover-bg.jpg');
+  background-position: center;  background-repeat: no-repeat;
+  height: 100%;
+}
+/* Cover - Menu button */
+.icon-menu {
+  color: #505050;  cursor: pointer;  position: fixed;
+  font-size: 25px;  font-weight: bold;
+  padding-left: 25px;  padding-top: 0px;  padding-right: 25px;
+}
+/* Cover - Navigation notes */
+.nav-note {
+  color: #656565;  font-size: 12px;  font-weight: 1000;
+  position: fixed;  bottom: 0px;  right: 15px;
+}
+/* Info - paragraph */
+.info p {
+  height: 100%;  font-size: 30;
+  padding-left: 15%;  padding-right: 15%;
+}
